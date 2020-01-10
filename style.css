@@ -1,0 +1,62 @@
+
+*{
+    padding:0;
+    margin: 0;
+    
+}
+body{
+    background-image: linear-gradient(rgb(246, 181, 29), rgb(255, 221, 30));
+    background-repeat: no-repeat;
+    background-size:1000vmax;
+    text-align: center;
+}
+h1{
+    font-family: 'Segoe UI';
+    margin: 20px auto;
+}
+/*-----Table------*/
+
+table{
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+td{
+    border: 1px solid black;
+    padding: 20px 15px;
+}
+td:hover,
+td:active{
+    background-color: rgb(170, 170, 170);
+}
+/*---------MINE--------*/
+.mine{
+    border: 1px solid black;
+    padding: 20px 15px;
+}
+
+/*----BUTTON-----*/
+#btn{
+    margin: 40px 280px;
+    padding: 70px;
+    display: none;
+}
+.safe_cell{
+    border: 1px solid black;
+    padding: 20px 15px;
+}
+
+/*------Smiley------*/
+#smiley{
+    width: 5%;
+    height: auto;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+/*====Flag====*/
+.flag{
+    border: 1px solid black;
+    padding: 20px 15px;
+}
